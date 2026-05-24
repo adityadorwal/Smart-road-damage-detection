@@ -1,0 +1,22 @@
+# requirements.txt - Smart Road Damage Detection System v2.0
+# Install: pip install -r requirements.txt
+# Python >= 3.9 recommended
+
+# Web Framework
+streamlit>=1.32.0
+
+# Computer Vision
+opencv-python-headless>=4.9.0.80
+Pillow>=10.2.0
+
+# Deep Learning / Object Detection
+ultralytics>=8.1.0
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Data / Numerics
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Optional GPU (uncomment if CUDA available):
+# torch>=2.1.0+cu118   --extra-index-url https://download.pytorch.org/whl/cu118

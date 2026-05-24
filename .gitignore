@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (downloaded at runtime)
+*.pt
+*.pth
+*.onnx
+
+# Outputs (generated files, not source)
+outputs/*.txt
+outputs/*.png
+outputs/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Ultralytics cache
+runs/
+
+# HuggingFace / model cache
+models/.cache/
+.cache/
