@@ -149,7 +149,7 @@ streamlit run app.py
 # Opens at http://localhost:8501
 ```
 
-Ensure `models/best.pt` is present before running (weights not included in repo due to file size).
+Ensure `models/best.pt` is present before running.
 
 ---
 
@@ -185,22 +185,3 @@ Ensure `models/best.pt` is present before running (weights not included in repo 
 - Fine-tuning on CRRI-collected Indian road images
 
 ---
-
-## Interview Q&A (Quick Reference)
-
-**Why YOLOv8m?**
-Single-stage detector — fast, accurate, good balance for field use. Pretrained road damage model available on RDD2022.
-
-**Why pretrained instead of training from scratch?**
-Training from scratch needs labeled data, GPU compute, and weeks of work. RDD2022 already has 47k annotated images. Using pretrained weights and building the inspection system around it is the right call for a prototype.
-
-**How does severity work?**
-Confidence-based bands (Low/Medium/High/Critical) plus an area-weighted bump — larger defects get escalated one tier. It's a heuristic, not an engineering measurement.
-
-**What are false positives / false negatives?**
-False positive = damage detected where none exists. False negative = real damage missed. Threshold controls the tradeoff — lower threshold catches more damage but also more false positives.
-
----
-
-*Smart Road Damage Detection v2.0 — CSIR-CRRI AI Inspection Prototype*
-*Aditya Dorwal | B.Tech CSE (AI & ML) | KCC Institute of Technology*
