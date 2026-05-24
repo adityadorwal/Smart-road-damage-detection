@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
 [![YOLOv8m](https://img.shields.io/badge/YOLOv8m-Ultralytics-orange)](https://ultralytics.com)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-red)](https://streamlit.io)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-red)]([https://streamlit.io](https://smart-road-damage-detection-h.streamlit.app/))
 
 ---
 
